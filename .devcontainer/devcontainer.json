@@ -1,0 +1,23 @@
+{
+  "name": "ACDH-CH frontend",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "pnpm install && pnpm exec playwright install",
+  "remoteUser": "node",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "mikestead.dotenv",
+        "ms-playwright.playwright"
+      ]
+    }
+  }
+}
