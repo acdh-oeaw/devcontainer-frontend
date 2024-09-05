@@ -4,7 +4,7 @@
 
 includes:
 
-- node.js v20
+- node.js v22
 - git
 - github cli
 - os-dependencies for playwright
@@ -15,7 +15,7 @@ create a `.devcontainer/devcontainer.json` file in the repository root:
 
 ```json
 {
-  "image": "ghcr.io/acdh-oeaw/devcontainer-frontend:20",
+  "image": "ghcr.io/acdh-oeaw/devcontainer-frontend:22",
   "customizations": {
     "vscode": {
       "extensions": [

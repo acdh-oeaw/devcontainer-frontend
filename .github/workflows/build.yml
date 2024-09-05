@@ -35,4 +35,4 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           imageName: ghcr.io/acdh-oeaw/devcontainer-frontend
-          imageTag: 20,latest
+          imageTag: 22,latest
