@@ -4,6 +4,7 @@ LABEL org.opencontainers.image.description "ACDH-CH frontend devcontainer"
 
 RUN corepack enable
 
+ENV COREPACK_ENABLE_DOWNLOAD_PROMPT=0
 ENV DEBIAN_FRONTEND=noninteractive
 
 # playwright dependencies
