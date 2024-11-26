@@ -33,19 +33,10 @@ RUN \
     libxfixes3 \
     libxkbcommon0 \
     libxrandr2 \
-    xvfb \
-    fonts-noto-color-emoji \
-    fonts-unifont \
-    libfontconfig1 \
-    libfreetype6 \
-    xfonts-scalable \
-    fonts-liberation \
-    fonts-ipafont-gothic \
-    fonts-wqy-zenhei \
-    fonts-tlwg-loma-otf \
-    fonts-freefont-ttf \
     libcairo-gobject2 \
     libdbus-glib-1-2 \
+    libfontconfig1 \
+    libfreetype6 \
     libgdk-pixbuf-2.0-0 \
     libgtk-3-0 \
     libharfbuzz0b \
@@ -94,4 +85,14 @@ RUN \
     libxslt1.1 \
     libatomic1 \
     libevent-2.1-7 \
+    libavif15 \
+    xvfb \
+    fonts-noto-color-emoji \
+    fonts-unifont \
+    xfonts-scalable \
+    fonts-liberation \
+    fonts-ipafont-gothic \
+    fonts-wqy-zenhei \
+    fonts-tlwg-loma-otf \
+    fonts-freefont-ttf \
   && apt-get clean
