@@ -38,7 +38,8 @@ RUN \
     libfontconfig1 \
     libfreetype6 \
     libgdk-pixbuf-2.0-0 \
-    libgtk-3-0 \
+    libgraphene-1.0-0 \
+    libgtk-4-1 \
     libharfbuzz0b \
     libpangocairo-1.0-0 \
     libx11-xcb1 \
