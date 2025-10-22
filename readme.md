@@ -1,4 +1,4 @@
-# acdh-ch frontend devcontainer
+# acdh frontend devcontainer
 
 [devcontainer](https://containers.dev/) for frontend development.
 
