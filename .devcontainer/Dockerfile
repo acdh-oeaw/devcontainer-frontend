@@ -1,6 +1,6 @@
 FROM node:22-slim
 
-LABEL org.opencontainers.image.description "ACDH-CH frontend devcontainer"
+LABEL org.opencontainers.image.description "ACDH frontend devcontainer"
 
 RUN corepack enable
 
