@@ -1,5 +1,5 @@
 {
-  "name": "ACDH-CH frontend",
+  "name": "ACDH frontend",
   "build": {
     "dockerfile": "Dockerfile"
   },
