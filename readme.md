@@ -13,7 +13,7 @@ includes:
 
 create a `.devcontainer/devcontainer.json` file in the repository root:
 
-```json
+```jsonc
 {
   "image": "ghcr.io/acdh-oeaw/devcontainer-frontend:24",
   "customizations": {
