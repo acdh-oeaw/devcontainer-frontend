@@ -2,10 +2,10 @@ FROM node:24-slim
 
 LABEL org.opencontainers.image.description="ACDH frontend devcontainer"
 
-RUN corepack enable
-
 ENV COREPACK_ENABLE_DOWNLOAD_PROMPT=0
 ENV DEBIAN_FRONTEND=noninteractive
+
+RUN corepack enable
 
 # playwright dependencies
 # @see playwright install --dry-run --with-deps
